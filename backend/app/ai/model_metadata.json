@@ -1,0 +1,34 @@
+{
+  "model_type": "RandomForestClassifier",
+  "model_version": "1.0.0-ibmz-rf",
+  "random_state": 42,
+  "train_samples": 2250,
+  "test_samples": 750,
+  "accuracy": 0.7293,
+  "precision": 0.612,
+  "recall": 0.708,
+  "f1_score": 0.6565,
+  "roc_auc": 0.8057,
+  "feature_importances": {
+    "delay_ratio": 0.1716,
+    "weather_severity": 0.1121,
+    "rainfall_mm": 0.079,
+    "road_closure_flag": 0.2144,
+    "inventory_coverage_ratio": 0.246,
+    "temp_deviation_celsius": 0.1079,
+    "medicine_criticality_num": 0.0249,
+    "travel_progress_ratio": 0.0441
+  },
+  "feature_names": [
+    "delay_ratio",
+    "weather_severity",
+    "rainfall_mm",
+    "road_closure_flag",
+    "inventory_coverage_ratio",
+    "temp_deviation_celsius",
+    "medicine_criticality_num",
+    "travel_progress_ratio"
+  ],
+  "trained_date": "2026-10-18T20:00:00Z",
+  "is_trained": true
+}
